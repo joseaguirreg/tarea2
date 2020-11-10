@@ -1,0 +1,60 @@
+body{
+    background-color: blueviolet;
+}
+
+
+.sidebar{
+    display:flex;
+    flex-direction:column;
+    background-color: #ccc;
+    border-radius:25px;
+    max-width:400px;
+}
+
+.sidebar__header{
+    display:flex;
+    flex-direction:row;
+}
+
+.sidebar__profile{
+    border-radius:50%;
+    order:-1;
+    margin-top:20px;
+    margin-left:20px;
+    
+}
+
+.sidebar__title{
+    font-size:2em;
+    color:blueviolet;
+    justify-content: center;
+    order:1;
+    flex-grow:2;
+    text-align:right;
+    margin:50px;
+}
+
+
+
+.sidebar__nav{
+    display:flex;
+    flex-direction:column;
+}
+
+ul{
+    padding-inline-start: 0px;
+    text-indent:10px;
+}
+
+li{
+    list-style:none;
+    font-size:20px;
+    padding:5px;
+    color:blueviolet;
+    text-align:left;
+}
+
+li:hover{
+    background-color: white;
+}
+

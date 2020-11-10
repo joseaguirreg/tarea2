@@ -1,0 +1,116 @@
+.container1{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+
+}
+
+@media (min-width:1025px){
+    .container1{
+        grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
+    }
+}
+
+@media (min-width:481px) and (max-width:1024px){
+    .container1{
+        grid-template-columns: repeat(auto-fit, minmax(220px,1fr)); 
+    }
+}
+
+
+
+.item1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    background-color: green;
+    
+}
+
+.container2{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+}
+
+@media (min-width:481px) and (max-width:1024px){
+    .container2{
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); 
+    }
+}
+
+@media (min-width:1025px){
+    .container2{
+        grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
+    }
+}
+
+
+.item2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    background-color: green;
+    
+}
+
+.container3{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+}
+
+.item3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    background-color: green;
+    
+}
+
+@media (min-width:481px) and (max-width:1024px){
+    .container3{
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); 
+    }
+}
+
+@media (min-width:1025px){
+    .container3{
+        grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
+    }
+}
+
+
+
+.container4{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+.item4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    background-color: green;
+    
+}
+
+@media (min-width:481px) and (max-width:1024px){
+    .container4{
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); 
+    }
+}
+
+.line {
+    height: 1px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    background-color: white;
+}
+
+
